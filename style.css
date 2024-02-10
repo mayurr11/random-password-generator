@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /* background: #002339; */
+    background: #f1faee;
+    /* color: #fff; */
+    color: #e63946;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    margin-left: 10%;
+    width: 90%;
+    max-width: 700px;
+}
+
+.length-box {
+    width: 31%;
+    font-size:1.2rem;
+    font-weight: 500;
+    margin-top: 50px;
+    padding: 14px 10px 14px 20px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #00233978;
+}
+
+.display {
+    width: 60%;
+    margin-top: 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 1px solid #00233978;
+    /* overflow: hidden; */
+}
+
+#alert {
+    margin: 20px 0;
+}
+
+.container h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 1.2;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.523);
+}
+
+.container h1 span {
+    color: #1d3557;
+    animation: text;
+    transition: all ease-in-out 0.2s;
+}
+/* .container h1 span:hover {
+    text-shadow: 0 0 50px #1d3557af;
+}  */
+
+.display span {
+    font-size: 2rem;
+    z-index: 1;
+    color: #002339;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    transition: all ease-in-out 0.2s;
+}
+
+.display span:hover {
+    background-color: #102736af;
+    color: #fff;
+}
+
+.container input[type="text"] {
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    outline: none;
+}
+
+.container input[type="text"]::selection {
+    background-color: inherit;
+    color: inherit;
+}
+
+.container button {
+    border: none;
+    font-size: 1.2rem;
+    padding: 20px 30px;
+    border-radius: 10px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1d3557;
+    transition: all ease-in-out 0.1s;
+    cursor: pointer;
+    box-shadow: 0 0 5px #15151578;
+}
+
+.container button i {
+    color: #ffffff;
+    margin-right: 1rem;
+}
+
+button:hover {
+    transform: scale(0.97);
+}
+
+#alert {
+    color: lightcyan;
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        height: 90vh;
+        justify-content: center;
+    }
+
+    .container {
+        margin: 0;
+        justify-content: center;
+    }
+    .length-box {
+        min-width: 100%;
+    }
+
+    .display {
+        width: 100%;
+    }
+
+    .container input[type="text"] {
+        width: 70%;
+    }   
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
